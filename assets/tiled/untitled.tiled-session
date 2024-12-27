@@ -1,16 +1,22 @@
 {
-    "Map/SizeTest": {
-        "height": 4300,
-        "width": 2
-    },
-    "activeFile": "",
+    "activeFile": "cute-fantasy-16-16.tsx",
     "expandedProjectPaths": [
     ],
     "fileStates": {
+        "cute-fantasy-16-16.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
     },
+    "last.imagePath": "/Users/wjunior/projetos/outros/dojo/fed-cronicas-de-eco/assets/cute-fantasy/Cute_Fantasy/Animals/Cow",
     "openFiles": [
+        "cute-fantasy-16-16.tsx"
     ],
     "project": "untitled.tiled-project",
     "recentFiles": [
-    ]
+        "cute-fantasy-16-16.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.type": 1
 }

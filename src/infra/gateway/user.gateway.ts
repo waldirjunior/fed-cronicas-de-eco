@@ -9,6 +9,7 @@ import { User } from "../../domain/app/user/user.entity";
 export interface UserGateway {
     create(user: User): Promise<User>;
     getById(id: number): Promise<User>;
+    getSession(): Promise<User | null>;
     getByUsername(username: string): Promise<User>;
     update(user: User): Promise<User>;
     delete(id: number): Promise<void>;
@@ -18,6 +19,14 @@ export class UserGatewayImpl implements UserGateway {
 
     constructor() {
         console.log('UserGatewayImpl');
+    }
+
+    async getSession(): Promise<User | null> {
+        const users = JSON.parse(localStorage.getItem('users') || '[]') as User[];
+        if (users.length === 0) {
+            return null;
+        }
+        return users[0];
     }
 
     async create(user: User): Promise<User> {

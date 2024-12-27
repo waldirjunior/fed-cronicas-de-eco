@@ -1,0 +1,1503 @@
+{
+  "frames": {
+    "Animals/Kapybara/Kapybara_Bubbles.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 800,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 800,
+        "h": 32
+      },
+      "sourceSize": {
+        "w": 800,
+        "h": 32
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Kapybara/Kapybara_Emerge.png": {
+      "frame": {
+        "x": 800,
+        "y": 0,
+        "w": 320,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 32
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 32
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Kapybara/Kapybara_LookAround.png": {
+      "frame": {
+        "x": 1120,
+        "y": 0,
+        "w": 320,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 32
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 32
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Kapybara/Kapybara_Dive.png": {
+      "frame": {
+        "x": 1440,
+        "y": 0,
+        "w": 288,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 288,
+        "h": 32
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 32
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Kapybara/Kapybara_Idle.png": {
+      "frame": {
+        "x": 1728,
+        "y": 0,
+        "w": 288,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 288,
+        "h": 32
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 32
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Bee/Bee_Nest.png": {
+      "frame": {
+        "x": 2016,
+        "y": 0,
+        "w": 30,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 30,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 32,
+        "h": 16
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Bee/Bee_Hive.png": {
+      "frame": {
+        "x": 2016,
+        "y": 15,
+        "w": 11,
+        "h": 14
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 1,
+        "w": 11,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 16
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Horse/Horse_01.png": {
+      "frame": {
+        "x": 0,
+        "y": 32,
+        "w": 255,
+        "h": 284
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 3,
+        "w": 255,
+        "h": 284
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Cow/Cow_01.png": {
+      "frame": {
+        "x": 0,
+        "y": 316,
+        "w": 250,
+        "h": 277
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 6,
+        "w": 250,
+        "h": 277
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Cow/Cow_02.png": {
+      "frame": {
+        "x": 0,
+        "y": 593,
+        "w": 250,
+        "h": 277
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 6,
+        "w": 250,
+        "h": 277
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Cow/Cow_03.png": {
+      "frame": {
+        "x": 0,
+        "y": 870,
+        "w": 250,
+        "h": 277
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 6,
+        "w": 250,
+        "h": 277
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Cow/Cow_04.png": {
+      "frame": {
+        "x": 0,
+        "y": 1147,
+        "w": 250,
+        "h": 277
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 6,
+        "w": 250,
+        "h": 277
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Cow/Cow_05.png": {
+      "frame": {
+        "x": 0,
+        "y": 1424,
+        "w": 250,
+        "h": 277
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 6,
+        "w": 250,
+        "h": 277
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Cow/Cow_06.png": {
+      "frame": {
+        "x": 0,
+        "y": 1701,
+        "w": 250,
+        "h": 277
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 6,
+        "w": 250,
+        "h": 277
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Kapybara/Kapybara_LookAround_submerged.png": {
+      "frame": {
+        "x": 0,
+        "y": 1978,
+        "w": 288,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 288,
+        "h": 32
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 32
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Bee/Bee_Flying_Animation.png": {
+      "frame": {
+        "x": 0,
+        "y": 2010,
+        "w": 58,
+        "h": 25
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 4,
+        "w": 58,
+        "h": 25
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Cow/Cow_07.png": {
+      "frame": {
+        "x": 250,
+        "y": 316,
+        "w": 250,
+        "h": 277
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 6,
+        "w": 250,
+        "h": 277
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Cow/Cow_08.png": {
+      "frame": {
+        "x": 255,
+        "y": 32,
+        "w": 250,
+        "h": 277
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 6,
+        "w": 250,
+        "h": 277
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Cow/Cow_09.png": {
+      "frame": {
+        "x": 250,
+        "y": 593,
+        "w": 250,
+        "h": 277
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 6,
+        "w": 250,
+        "h": 277
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Sheep/Sheep_01.png": {
+      "frame": {
+        "x": 250,
+        "y": 870,
+        "w": 246,
+        "h": 272
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 8,
+        "w": 246,
+        "h": 272
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Sheep/Sheep_02.png": {
+      "frame": {
+        "x": 250,
+        "y": 1142,
+        "w": 246,
+        "h": 272
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 8,
+        "w": 246,
+        "h": 272
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Sheep/Sheep_03.png": {
+      "frame": {
+        "x": 250,
+        "y": 1414,
+        "w": 246,
+        "h": 272
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 8,
+        "w": 246,
+        "h": 272
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Sheep/Sheep_04.png": {
+      "frame": {
+        "x": 250,
+        "y": 1686,
+        "w": 246,
+        "h": 272
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 8,
+        "w": 246,
+        "h": 272
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Sheep/Sheep_05.png": {
+      "frame": {
+        "x": 496,
+        "y": 870,
+        "w": 246,
+        "h": 272
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 8,
+        "w": 246,
+        "h": 272
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Sheep/Sheep_06.png": {
+      "frame": {
+        "x": 500,
+        "y": 309,
+        "w": 246,
+        "h": 272
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 8,
+        "w": 246,
+        "h": 272
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Sheep/Sheep_07.png": {
+      "frame": {
+        "x": 742,
+        "y": 32,
+        "w": 246,
+        "h": 272
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 8,
+        "w": 246,
+        "h": 272
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Chicken/Chicken_01.png": {
+      "frame": {
+        "x": 505,
+        "y": 32,
+        "w": 237,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 10,
+        "w": 237,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Sheep/Sheep_08.png": {
+      "frame": {
+        "x": 500,
+        "y": 581,
+        "w": 246,
+        "h": 272
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 8,
+        "w": 246,
+        "h": 272
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Sheep/Sheep_09.png": {
+      "frame": {
+        "x": 496,
+        "y": 1142,
+        "w": 246,
+        "h": 272
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 8,
+        "w": 246,
+        "h": 272
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Pig/Pig_01.png": {
+      "frame": {
+        "x": 496,
+        "y": 1414,
+        "w": 278,
+        "h": 271
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 9,
+        "w": 278,
+        "h": 271
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Pig/Pig_02.png": {
+      "frame": {
+        "x": 496,
+        "y": 1685,
+        "w": 278,
+        "h": 271
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 9,
+        "w": 278,
+        "h": 271
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Pig/Pig_03.png": {
+      "frame": {
+        "x": 742,
+        "y": 853,
+        "w": 278,
+        "h": 271
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 9,
+        "w": 278,
+        "h": 271
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Pig/Pig_04.png": {
+      "frame": {
+        "x": 742,
+        "y": 1124,
+        "w": 278,
+        "h": 271
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 9,
+        "w": 278,
+        "h": 271
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Pig/Pig_05.png": {
+      "frame": {
+        "x": 746,
+        "y": 304,
+        "w": 278,
+        "h": 271
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 9,
+        "w": 278,
+        "h": 271
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Pig/Pig_06.png": {
+      "frame": {
+        "x": 1020,
+        "y": 32,
+        "w": 278,
+        "h": 271
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 9,
+        "w": 278,
+        "h": 271
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Pig/Pig_07.png": {
+      "frame": {
+        "x": 746,
+        "y": 575,
+        "w": 278,
+        "h": 271
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 9,
+        "w": 278,
+        "h": 271
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Pig/Pig_08.png": {
+      "frame": {
+        "x": 774,
+        "y": 1395,
+        "w": 278,
+        "h": 271
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 9,
+        "w": 278,
+        "h": 271
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Pig/Pig_09.png": {
+      "frame": {
+        "x": 774,
+        "y": 1666,
+        "w": 278,
+        "h": 271
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 9,
+        "w": 278,
+        "h": 271
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Pig/Pig_10.png": {
+      "frame": {
+        "x": 1020,
+        "y": 846,
+        "w": 278,
+        "h": 271
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 9,
+        "w": 278,
+        "h": 271
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Pig/Pig_11.png": {
+      "frame": {
+        "x": 1020,
+        "y": 1117,
+        "w": 278,
+        "h": 271
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 9,
+        "w": 278,
+        "h": 271
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Pig/Pig_12.png": {
+      "frame": {
+        "x": 1024,
+        "y": 303,
+        "w": 278,
+        "h": 271
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 9,
+        "w": 278,
+        "h": 271
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Pig/Pig_13.png": {
+      "frame": {
+        "x": 1298,
+        "y": 32,
+        "w": 278,
+        "h": 271
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 9,
+        "w": 278,
+        "h": 271
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Pig/Pig_14.png": {
+      "frame": {
+        "x": 1024,
+        "y": 574,
+        "w": 278,
+        "h": 271
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 9,
+        "w": 278,
+        "h": 271
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Pig/Pig_15.png": {
+      "frame": {
+        "x": 1576,
+        "y": 32,
+        "w": 278,
+        "h": 271
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 9,
+        "w": 278,
+        "h": 271
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Pig/Pig_16.png": {
+      "frame": {
+        "x": 1052,
+        "y": 1388,
+        "w": 278,
+        "h": 271
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 9,
+        "w": 278,
+        "h": 271
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Chicken/Chicken_02.png": {
+      "frame": {
+        "x": 1052,
+        "y": 1659,
+        "w": 237,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 10,
+        "w": 237,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Chicken/Chicken_03.png": {
+      "frame": {
+        "x": 1289,
+        "y": 1659,
+        "w": 237,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 10,
+        "w": 237,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Chicken/Chicken_04.png": {
+      "frame": {
+        "x": 1526,
+        "y": 303,
+        "w": 237,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 10,
+        "w": 237,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Chicken/Chicken_05.png": {
+      "frame": {
+        "x": 1763,
+        "y": 303,
+        "w": 237,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 10,
+        "w": 237,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Chicken/Chicken_06.png": {
+      "frame": {
+        "x": 1526,
+        "y": 541,
+        "w": 237,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 10,
+        "w": 237,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Chicken/Chicken_07.png": {
+      "frame": {
+        "x": 1763,
+        "y": 541,
+        "w": 237,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 10,
+        "w": 237,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Chicken/Chicken_08.png": {
+      "frame": {
+        "x": 1526,
+        "y": 779,
+        "w": 237,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 10,
+        "w": 237,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Chicken/Chicken_09.png": {
+      "frame": {
+        "x": 1763,
+        "y": 779,
+        "w": 237,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 10,
+        "w": 237,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Chicken/Chicken_10.png": {
+      "frame": {
+        "x": 1298,
+        "y": 1017,
+        "w": 237,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 10,
+        "w": 237,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Chicken/Chicken_11.png": {
+      "frame": {
+        "x": 1330,
+        "y": 1255,
+        "w": 237,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 10,
+        "w": 237,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Chicken/Chicken_12.png": {
+      "frame": {
+        "x": 1535,
+        "y": 1017,
+        "w": 237,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 10,
+        "w": 237,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Chicken/Chicken_13.png": {
+      "frame": {
+        "x": 1772,
+        "y": 1017,
+        "w": 237,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 10,
+        "w": 237,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Chicken/Chicken_14.png": {
+      "frame": {
+        "x": 1567,
+        "y": 1255,
+        "w": 237,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 10,
+        "w": 237,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Chicken/Chicken_15.png": {
+      "frame": {
+        "x": 1804,
+        "y": 1255,
+        "w": 237,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 10,
+        "w": 237,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Chicken/Chicken_16.png": {
+      "frame": {
+        "x": 1526,
+        "y": 1493,
+        "w": 237,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 10,
+        "w": 237,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Chicken/Chicken_17.png": {
+      "frame": {
+        "x": 1763,
+        "y": 1493,
+        "w": 237,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 10,
+        "w": 237,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Animals/Chicken/Chicken_18.png": {
+      "frame": {
+        "x": 1526,
+        "y": 1731,
+        "w": 237,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 10,
+        "w": 237,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "animals.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2046,
+      "h": 2035
+    },
+    "scale": 1
+  }
+}

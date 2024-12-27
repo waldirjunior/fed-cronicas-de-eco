@@ -35,10 +35,12 @@ export class MainMenu extends Scene
     )
     {
         super('MainMenu');
+        console.log('MainMenu');
     }
 
     create ()
     {
+        console.log('MainMenu create');
         this.background = this.add.image(462, 384, 'background');
 
         // 512, 300

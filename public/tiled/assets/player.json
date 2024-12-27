@@ -1,0 +1,663 @@
+{
+  "frames": {
+    "Player/Player.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 244,
+        "h": 788
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 5,
+        "w": 244,
+        "h": 788
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 800
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_Old/Player.png": {
+      "frame": {
+        "x": 0,
+        "y": 788,
+        "w": 244,
+        "h": 788
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 5,
+        "w": 244,
+        "h": 788
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 800
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_New/Player_Anim/Player_Fishing_Anim.png": {
+      "frame": {
+        "x": 0,
+        "y": 1576,
+        "w": 525,
+        "h": 468
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 26,
+        "y": 21,
+        "w": 525,
+        "h": 468
+      },
+      "sourceSize": {
+        "w": 576,
+        "h": 512
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_Old/Player_Riding_Horse.png": {
+      "frame": {
+        "x": 525,
+        "y": 1576,
+        "w": 191,
+        "h": 420
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 11,
+        "w": 191,
+        "h": 420
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 432
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_Riding_Horse.png": {
+      "frame": {
+        "x": 716,
+        "y": 1576,
+        "w": 191,
+        "h": 420
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 11,
+        "w": 191,
+        "h": 420
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 432
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_Fishing.png": {
+      "frame": {
+        "x": 907,
+        "y": 0,
+        "w": 548,
+        "h": 492
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 26,
+        "y": 18,
+        "w": 548,
+        "h": 492
+      },
+      "sourceSize": {
+        "w": 576,
+        "h": 512
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_Old/Player_Fishing.png": {
+      "frame": {
+        "x": 1455,
+        "y": 0,
+        "w": 548,
+        "h": 492
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 26,
+        "y": 18,
+        "w": 548,
+        "h": 492
+      },
+      "sourceSize": {
+        "w": 576,
+        "h": 512
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_New/Weapons/Wooden_Fishing_Rod.png": {
+      "frame": {
+        "x": 244,
+        "y": 0,
+        "w": 543,
+        "h": 492
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 31,
+        "y": 18,
+        "w": 543,
+        "h": 492
+      },
+      "sourceSize": {
+        "w": 576,
+        "h": 512
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_Attack_NoWeapon.png": {
+      "frame": {
+        "x": 787,
+        "y": 0,
+        "w": 112,
+        "h": 276
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 7,
+        "y": 5,
+        "w": 112,
+        "h": 276
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_New/Player_Anim/Player_Attack_Anim.png": {
+      "frame": {
+        "x": 787,
+        "y": 276,
+        "w": 112,
+        "h": 276
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 7,
+        "y": 5,
+        "w": 112,
+        "h": 276
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_Actions.png": {
+      "frame": {
+        "x": 244,
+        "y": 492,
+        "w": 277,
+        "h": 557
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 6,
+        "w": 277,
+        "h": 557
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 576
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_New/Player_Anim/Player_Actions_Anim.png": {
+      "frame": {
+        "x": 521,
+        "y": 492,
+        "w": 258,
+        "h": 548
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 15,
+        "y": 13,
+        "w": 258,
+        "h": 548
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 576
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_New/Player_Anim/Player_Horse_Anim.png": {
+      "frame": {
+        "x": 244,
+        "y": 1049,
+        "w": 191,
+        "h": 407
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 24,
+        "w": 191,
+        "h": 407
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 432
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_New/Player_Anim/Player_Bow_Anim..png": {
+      "frame": {
+        "x": 244,
+        "y": 1456,
+        "w": 174,
+        "h": 84
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 9,
+        "y": 5,
+        "w": 174,
+        "h": 84
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 96
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_New/Weapons/Wooden_Bow.png": {
+      "frame": {
+        "x": 418,
+        "y": 1456,
+        "w": 179,
+        "h": 66
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 8,
+        "y": 9,
+        "w": 179,
+        "h": 66
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_New/Player_Anim/Player_Horse_Riding_Anim.png": {
+      "frame": {
+        "x": 435,
+        "y": 1049,
+        "w": 177,
+        "h": 405
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 7,
+        "y": 11,
+        "w": 177,
+        "h": 405
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 432
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_New/Player_Anim/Player_Idle_Run_Death_Anim.png": {
+      "frame": {
+        "x": 612,
+        "y": 1040,
+        "w": 237,
+        "h": 404
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 9,
+        "y": 5,
+        "w": 237,
+        "h": 404
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 416
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_Holding_Torch_Lantern.png": {
+      "frame": {
+        "x": 779,
+        "y": 552,
+        "w": 183,
+        "h": 372
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 5,
+        "w": 183,
+        "h": 372
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 384
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_New/Weapons/Iron_Tools.png": {
+      "frame": {
+        "x": 849,
+        "y": 924,
+        "w": 277,
+        "h": 557
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 6,
+        "w": 277,
+        "h": 557
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 576
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_Old/Player_Actions.png": {
+      "frame": {
+        "x": 962,
+        "y": 1481,
+        "w": 277,
+        "h": 557
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 6,
+        "w": 277,
+        "h": 557
+      },
+      "sourceSize": {
+        "w": 288,
+        "h": 576
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_Old/Player_Holding_Torch_Lantern.png": {
+      "frame": {
+        "x": 962,
+        "y": 492,
+        "w": 183,
+        "h": 372
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 5,
+        "w": 183,
+        "h": 372
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 384
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_New/Player_Anim/Player_Torch_Lantern_Anim.png": {
+      "frame": {
+        "x": 1126,
+        "y": 864,
+        "w": 174,
+        "h": 372
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 9,
+        "y": 5,
+        "w": 174,
+        "h": 372
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 384
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_New/Weapons/Torch_Lantern.png": {
+      "frame": {
+        "x": 1145,
+        "y": 492,
+        "w": 183,
+        "h": 366
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 7,
+        "w": 183,
+        "h": 366
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 384
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_Old/Player_Attack_NoWeapon.png": {
+      "frame": {
+        "x": 1239,
+        "y": 1236,
+        "w": 112,
+        "h": 276
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 7,
+        "y": 5,
+        "w": 112,
+        "h": 276
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_Attack_OnlyWeapon.png": {
+      "frame": {
+        "x": 1300,
+        "y": 858,
+        "w": 94,
+        "h": 269
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 7,
+        "w": 94,
+        "h": 269
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_New/Weapons/Iron_Sword.png": {
+      "frame": {
+        "x": 1351,
+        "y": 492,
+        "w": 94,
+        "h": 269
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 7,
+        "w": 94,
+        "h": 269
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Player/Player_Old/Player_Attack_OnlyWeapon.png": {
+      "frame": {
+        "x": 1445,
+        "y": 492,
+        "w": 94,
+        "h": 269
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 7,
+        "w": 94,
+        "h": 269
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "player.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2003,
+      "h": 2044
+    },
+    "scale": 1
+  }
+}

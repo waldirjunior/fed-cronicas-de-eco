@@ -1,10 +1,15 @@
 import { Scene } from 'phaser';
+import { app } from '../domain/app/app.module';
+import { GetUserUsecase } from '../domain/app/user/get-user.usecase';
 
-export class Preloader extends Scene
-{
+export class Preloader extends Scene {
+
+    private readonly getUserUsecase: GetUserUsecase = app.GetUserUsecase;
+
     constructor ()
     {
         super('Preloader');
+        console.log('Preloader');
     }
 
     init ()
@@ -41,6 +46,12 @@ export class Preloader extends Scene
         //  For example, you can define global animations here, so we can use them in other scenes.
 
         //  Move to the MainMenu. You could also swap this for a Scene Transition, such as a camera fade.
-        this.scene.start('MainMenu');
+
+        this.getUserUsecase.executeSession().then((user) => {
+            console.log(user);
+            this.scene.start('Game');
+        }).catch(() => {
+            this.scene.start('MainMenu');
+        });
     }
 }

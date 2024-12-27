@@ -13,6 +13,15 @@ export class GetUserUsecase {
         return this.userRepository.getByUsername(username);
     }
 
+    async executeSession(): Promise<User>
+    {
+        const user = await this.userRepository.getSession();
+        if (!user) {
+            throw new Error("No user found in session");
+        }
+        return user;
+    }
+
     async validatePassword({
         username,
         password
@@ -27,6 +36,6 @@ export class GetUserUsecase {
 
         const user = await this.userRepository.getByUsername(username);
 
-        return user.password === password;
+        return user?.password === password;
     }
 }

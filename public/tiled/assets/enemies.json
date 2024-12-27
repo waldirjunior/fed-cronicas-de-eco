@@ -1,0 +1,183 @@
+{
+  "frames": {
+    "Enemies/Skeleton/Skeleton_Swordman.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 225,
+        "h": 501
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 9,
+        "y": 4,
+        "w": 225,
+        "h": 501
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 512
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Enemies/Skeleton/Skeleton_Mage.png": {
+      "frame": {
+        "x": 0,
+        "y": 501,
+        "w": 239,
+        "h": 406
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 8,
+        "y": 3,
+        "w": 239,
+        "h": 406
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 416
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Enemies/Skeleton/Skeleton_Bowman.png": {
+      "frame": {
+        "x": 225,
+        "y": 0,
+        "w": 182,
+        "h": 404
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 5,
+        "w": 182,
+        "h": 404
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 416
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Enemies/Slime/Slime.png": {
+      "frame": {
+        "x": 225,
+        "y": 404,
+        "w": 180,
+        "h": 77
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 11,
+        "w": 180,
+        "h": 77
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 96
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Enemies/Bombschroom/Bombschroom.png": {
+      "frame": {
+        "x": 0,
+        "y": 907,
+        "w": 126,
+        "h": 335
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 126,
+        "h": 335
+      },
+      "sourceSize": {
+        "w": 176,
+        "h": 336
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Enemies/Skeleton/Skeleton.png": {
+      "frame": {
+        "x": 0,
+        "y": 1242,
+        "w": 174,
+        "h": 308
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 9,
+        "y": 5,
+        "w": 174,
+        "h": 308
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 320
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Enemies/Bombschroom/Toxic_Gas_Cloud_VFX.png": {
+      "frame": {
+        "x": 126,
+        "y": 907,
+        "w": 180,
+        "h": 28
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 9,
+        "y": 2,
+        "w": 180,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 32
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "enemies.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 407,
+      "h": 1550
+    },
+    "scale": 1
+  }
+}
