@@ -19,19 +19,24 @@ export class Game extends Scene
     }
 
     create () {
-        new CreateMapUsecase(this).execute();
-        
         this.camera = this.cameras.main;
-        // Ajusta o zoom da câmera
         this.camera.setZoom(2); // Aumenta o zoom da câmera
         //this.camera.setBackgroundColor(0x00ff00);
 
-        this.player = new PlayerSprite(this, this.initX, this.initY);
+        this.createWorld();
+        this.createEntities();
+        this.setupInputs();
 
         // Configura a câmera para seguir o jogador
         this.camera.startFollow(this.player);
+    }
 
-        this.setupInputs();
+    createWorld() {
+        new CreateMapUsecase(this).execute();
+    }
+
+    createEntities() {
+        this.player = new PlayerSprite(this, this.initX, this.initY);
     }
 
     setupInputs() {
@@ -41,23 +46,6 @@ export class Game extends Scene
     }
 
     update () {
-        let moving = false;
-        if (this.cursors.left?.isDown) {
-            moving = true;
-            this.player.moveLeft();
-        } else if (this.cursors.right?.isDown) {
-            moving = true;
-            this.player.moveRight();
-        }
-        if (this.cursors.up?.isDown) {
-            moving = true;
-            this.player.moveUp();
-        } else if (this.cursors.down?.isDown) {
-            moving = true;
-            this.player.moveDown();
-        }
-        if (!moving) {
-            this.player.stop();
-        }
+        this.player.update(this.cursors);
     }
 }

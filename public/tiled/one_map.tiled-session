@@ -36,19 +36,19 @@
         "one_map.json": {
             "expandedGroupLayers": [
                 3,
-                8,
-                4
+                4,
+                8
             ],
-            "scale": 0.75,
-            "selectedLayer": 5,
+            "scale": 4,
+            "selectedLayer": 9,
             "viewCenter": {
-                "x": 3092.6666666666665,
-                "y": 2700
+                "x": 3077.75,
+                "y": 2742.5
             }
         },
         "one_map.json#default_tiles": {
             "dynamicWrapping": true,
-            "scaleInDock": 1,
+            "scaleInDock": 2,
             "scaleInEditor": 1
         }
     },

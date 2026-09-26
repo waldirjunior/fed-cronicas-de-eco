@@ -1,11 +1,9 @@
 import { Physics } from 'phaser';
 import { AnimationsModel } from '../shared/model/animations.model';
 import AnimationBuilder from '../shared/builders/animation.builder';
+import { GAME_CONFIG } from '../../../domain/game/game-config';
 
 export class PlayerSprite extends Physics.Arcade.Sprite {
-
-    velocity: number = 80;
-    lastDirection: string = 'down';
 
     // Classes de sprites
     animationBuilder;
@@ -25,39 +23,25 @@ export class PlayerSprite extends Physics.Arcade.Sprite {
         this.animationBuilder.createAnimations();
     }
 
-    moveLeft() {
-        this.setVelocityX(-this.velocity);
-        this.setFlipX(true); // Inverter a animação horizontalmente
-        this.animationBuilder.playAnimation('walk-left');
-        this.lastDirection = 'left';
-    }
-
-    moveRight() {
-        this.setVelocityX(this.velocity);
-        this.setFlipX(false); // Não inverter a animação
-        this.animationBuilder.playAnimation('walk-right');
-        this.lastDirection = 'right';
-    }
-
-    moveUp() {
-        this.setVelocityY(-this.velocity);
-        this.setFlipX(false); // Não inverter a animação
-        this.animationBuilder.playAnimation('walk-up');
-        this.lastDirection = 'up';
-    }
-
-    moveDown() {
-        this.setVelocityY(this.velocity);
-        this.setFlipX(false); // Não inverter a animação
-        this.animationBuilder.playAnimation('walk-down');
-        this.lastDirection = 'down';
-    }
-
-    stop(): this {
-        this.setVelocityX(0);
-        this.setVelocityY(0);
-        this.animationBuilder.playAnimation('idle-' + this.lastDirection);
-        return this;
+    update(cursors: Phaser.Types.Input.Keyboard.CursorKeys, speed: number = GAME_CONFIG.PLAYER.SPEED) {
+        let moving = false;
+        if (cursors.left?.isDown) {
+            moving = true;
+            this.animationBuilder.moveLeft(speed);
+        } else if (cursors.right?.isDown) {
+            moving = true;
+            this.animationBuilder.moveRight(speed);
+        }
+        if (cursors.up?.isDown) {
+            moving = true;
+            this.animationBuilder.moveUp(speed);
+        } else if (cursors.down?.isDown) {
+            moving = true;
+            this.animationBuilder.moveDown(speed);
+        }
+        if (!moving) {
+            this.animationBuilder.stopMove();
+        }
     }
 
     private getAnimations(): AnimationsModel {

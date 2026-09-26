@@ -3,9 +3,11 @@ import { AnimationsModel } from "../model/animations.model";
 export default class AnimationBuilder {
 
     scene: Phaser.Scene;
-    sprite: Phaser.GameObjects.Sprite;
+    sprite: Phaser.GameObjects.Sprite | any;
     spriteKey: string;
     animations: AnimationsModel;
+
+    lastDirection: string = 'down';
 
     constructor(
         scene: Phaser.Scene,
@@ -20,69 +22,14 @@ export default class AnimationBuilder {
     }
 
     createAnimations() {
-        /*for (const [key, anim] of Object.entries(this.animations)) {
+        for (const [key, anim] of Object.entries(this.animations)) {
             this.scene.anims.create({
                 key: key,
                 frames: this.scene.anims.generateFrameNames(this.spriteKey, { prefix: anim.prefix, start: anim.start, end: anim.end }),
                 frameRate: anim.frameRate,
                 repeat: anim.repeat
             });
-        }*/
-        this.scene.anims.create({
-            key: 'walk-up',
-            frames: this.scene.anims.generateFrameNames(this.spriteKey, { prefix: 'Player_', start: 31, end: 36 }),
-            frameRate: 10,
-            repeat: -1
-        });
-    
-        this.scene.anims.create({
-            key: 'idle-up',
-            frames: this.scene.anims.generateFrameNames(this.spriteKey, { prefix: 'Player_', start: 13, end: 18 }),
-            frameRate: 10,
-            repeat: -1
-        });
-    
-        this.scene.anims.create({
-            key: 'walk-down',
-            frames: this.scene.anims.generateFrameNames(this.spriteKey, { prefix: 'Player_', start: 19, end: 24 }),
-            frameRate: 10,
-            repeat: -1
-        });
-    
-        this.scene.anims.create({
-            key: 'idle-down',
-            frames: this.scene.anims.generateFrameNames(this.spriteKey, { prefix: 'Player_', start: 1, end: 6 }),
-            frameRate: 10,
-            repeat: -1
-        });
-    
-        this.scene.anims.create({
-            key: 'walk-right',
-            frames: this.scene.anims.generateFrameNames(this.spriteKey, { prefix: 'Player_', start: 25, end: 30 }),
-            frameRate: 10,
-            repeat: -1
-        });
-    
-        this.scene.anims.create({
-            key: 'idle-right',
-            frames: this.scene.anims.generateFrameNames(this.spriteKey, { prefix: 'Player_', start: 7, end: 12 }),
-            frameRate: 10,
-            repeat: -1
-        });
-    
-        this.scene.anims.create({
-            key: 'walk-left',
-            frames: this.scene.anims.generateFrameNames(this.spriteKey, { prefix: 'Player_', start: 25, end: 30 }),
-            frameRate: 10,
-            repeat: -1
-        });
-    
-        this.scene.anims.create({
-            key: 'idle-left',
-            frames: this.scene.anims.generateFrameNames(this.spriteKey, { prefix: 'Player_', start: 7, end: 12 }),
-            frameRate: 10,
-            repeat: -1
-        });
+        }
     }
 
     playAnimation(key: string) {
@@ -91,5 +38,40 @@ export default class AnimationBuilder {
         } catch (error) {
             console.error('Erro ao tentar executar animação', key, error);
         }
+    }
+
+    moveLeft(speed: number) {
+        this.sprite.setVelocityX(-speed);
+        this.sprite.setFlipX(true); // Inverter a animação horizontalmente
+        this.playAnimation('walk-left');
+        this.lastDirection = 'left';
+    }
+
+    moveRight(speed: number) {
+        this.sprite.setVelocityX(speed);
+        this.sprite.setFlipX(false); // Não inverter a animação
+        this.playAnimation('walk-right');
+        this.lastDirection = 'right';
+    }
+
+    moveUp(speed: number) {
+        this.sprite.setVelocityY(-speed);
+        this.sprite.setFlipX(false); // Não inverter a animação
+        this.playAnimation('walk-up');
+        this.lastDirection = 'up';
+    }
+
+    moveDown(speed: number) {
+        this.sprite.setVelocityY(speed);
+        this.sprite.setFlipX(false); // Não inverter a animação
+        this.playAnimation('walk-down');
+        this.lastDirection = 'down';
+    }
+
+    stopMove(): this {
+        this.sprite.setVelocityX(0);
+        this.sprite.setVelocityY(0);
+        this.playAnimation('idle-' + this.lastDirection);
+        return this;
     }
 }
